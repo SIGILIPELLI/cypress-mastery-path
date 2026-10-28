@@ -1,0 +1,109 @@
+site_name: Cypress Mastery Path
+site_description: A free Cypress testing course — real DOM querying, auto-waiting, network stubbing with cy.intercept, custom commands, component testing, and CI integration.
+site_url: https://sigilipelli.github.io/cypress-mastery-path/
+repo_url: https://github.com/sigilipelli/cypress-mastery-path
+repo_name: cypress-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Cypress Fundamentals":
+      - Overview: level-1/index.md
+      - "01 · What Cypress Actually Is": level-1/01-what-cypress-actually-is.md
+      - "02 · Installing & Configuring Cypress": level-1/02-installing-configuring.md
+      - "03 · Querying the DOM: cy.get, cy.contains, cy.find": level-1/03-querying-the-dom.md
+      - "04 · Interacting With Elements: Type, Click, Check": level-1/04-interacting-with-elements.md
+      - "05 · Assertions & should()": level-1/05-assertions.md
+      - "06 · Auto-Waiting & Retry-Ability": level-1/06-auto-waiting-retry-ability.md
+      - "07 · Forms & Dropdowns": level-1/07-forms-dropdowns.md
+      - "08 · Navigation: visit, reload, go": level-1/08-navigation.md
+      - "09 · The Cypress App & Headless Mode": level-1/09-cypress-app-headless-mode.md
+      - "10 · Project — a Real Login Flow Test": level-1/10-project-login-flow-test.md
+  - "Level 2 · Intermediate Patterns":
+      - Overview: level-2/index.md
+      - "01 · Custom Commands": level-2/01-custom-commands.md
+      - "02 · Fixtures & Test Data": level-2/02-fixtures-test-data.md
+      - "03 · Network Stubbing With cy.intercept": level-2/03-network-stubbing-intercept.md
+      - "04 · Calling APIs Directly With cy.request": level-2/04-cy-request.md
+      - "05 · Iframes: a Real Cypress Limitation": level-2/05-iframes-real-limitation.md
+      - "06 · File Upload With selectFile": level-2/06-file-upload.md
+      - "07 · Environment Variables & Configuration": level-2/07-env-variables-config.md
+      - "08 · Hooks: before, beforeEach, after, afterEach": level-2/08-hooks.md
+      - "09 · Debugging Failing Tests": level-2/09-debugging-failing-tests.md
+      - "10 · Project — a Real Network-Stubbed Suite": level-2/10-project-network-stubbed-suite.md
+  - "Level 3 · Architecture & Advanced Techniques":
+      - Overview: level-3/index.md
+      - "01 · The Command Queue: Why Cypress Code Isn't Actually Async": level-3/01-the-command-queue.md
+      - "02 · Aliases: as() and @alias": level-3/02-aliases.md
+      - "03 · Retry-Ability Pitfalls": level-3/03-retry-ability-pitfalls.md
+      - "04 · Cookies, Local Storage & cy.session": level-3/04-cookies-session.md
+      - "05 · cy.intercept Deep Dive: Stub vs Spy": level-3/05-intercept-deep-dive.md
+      - "06 · Screenshots & Videos on Failure": level-3/06-screenshots-videos.md
+      - "07 · Flaky Test Diagnosis": level-3/07-flaky-test-diagnosis.md
+      - "08 · CI Integration": level-3/08-ci-integration.md
+      - "09 · Parallelization & Cypress Cloud": level-3/09-parallelization-cloud.md
+      - "10 · Project — a Real POM Framework With Custom Commands": level-3/10-project-pom-framework.md
+  - "Level 4 · Component Testing, Scaling & Comparisons":
+      - Overview: level-4/index.md
+      - "01 · Why Cypress's Architecture Is Different": level-4/01-why-architecture-is-different.md
+      - "02 · Component Testing": level-4/02-component-testing.md
+      - "03 · Multiple Origins & cy.origin": level-4/03-multiple-origins.md
+      - "04 · The Same-Origin Constraint, Investigated": level-4/04-same-origin-constraint.md
+      - "05 · Plugins & cy.task": level-4/05-plugins-cy-task.md
+      - "06 · Performance: Measuring Real Command Timing": level-4/06-performance-measuring.md
+      - "07 · Cypress vs Selenium: a Real, Honest Comparison": level-4/07-cypress-vs-selenium.md
+      - "08 · Cypress vs Playwright: a Real, Honest Comparison": level-4/08-cypress-vs-playwright.md
+      - "09 · Common Cypress Anti-Patterns": level-4/09-cypress-antipatterns.md
+      - "10 · Capstone — a Real, Complete Test Framework": level-4/10-capstone-complete-test-framework.md
