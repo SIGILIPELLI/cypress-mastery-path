@@ -210,9 +210,6 @@ Free, structured, module-wise training across 97 other languages, platforms and 
 <div class="mastery-grid">
   <a href="https://sigilipelli.github.io/server-ops-mastery-path/">🖥️ Server Ops</a>
   <a href="https://sigilipelli.github.io/linux-mastery-path/">🐧 Linux</a>
-  <a href="https://sigilipelli.github.io/kafka-mastery-path/">📨 Kafka</a>
-  <a href="https://sigilipelli.github.io/microservices-mastery-path/">🧩 Microservices</a>
-  <a href="https://sigilipelli.github.io/observability-mastery-path/">📈 Observability</a>
   <a href="https://sigilipelli.github.io/nodemcu-mastery-path/">📶 NodeMCU/IoT</a>
   <a href="https://sigilipelli.github.io/terraform-mastery-path/">🌍 Terraform</a>
   <a href="https://sigilipelli.github.io/kubernetes-mastery-path/">☸️ Kubernetes</a>
@@ -220,5 +217,9 @@ Free, structured, module-wise training across 97 other languages, platforms and 
   <a href="https://sigilipelli.github.io/github-mastery-path/">🐙 GitHub & Git</a>
   <a href="https://sigilipelli.github.io/cicd-mastery-path/">🔁 CI/CD</a>
   <a href="https://sigilipelli.github.io/ansible-mastery-path/">🤖 Ansible</a>
+  <a href="https://sigilipelli.github.io/kafka-mastery-path/">📨 Kafka</a>
+  <a href="https://sigilipelli.github.io/microservices-mastery-path/">🧩 Microservices</a>
+  <a href="https://sigilipelli.github.io/observability-mastery-path/">📈 Observability</a>
 </div>
 </div>
+
