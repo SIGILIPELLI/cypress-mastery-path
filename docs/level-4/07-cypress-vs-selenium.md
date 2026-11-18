@@ -8,7 +8,7 @@ description: "A direct, evidence-based comparison grounded in this course's own 
 
 No new code — a direct comparison built from two real sources: this course's own 40 lessons of measured
 Cypress behavior, and this network's sibling
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/)'s own 40 lessons of measured
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/)'s own 40 lessons of measured
 Selenium behavior, both run against conceptually similar real local test apps.
 
 ## Where this course's own real findings show Cypress's genuine strength
@@ -32,7 +32,7 @@ own `pytest-xdist`-based parallel execution ran entirely locally and for free, w
 `1.67x` speedup once the suite's per-test cost was large enough. [Level 1, Lesson 9](../level-1/09-cypress-app-headless-mode.md) and the Selenium course's own Level 3 both independently hit a real
 Firefox failure in this specific sandboxed environment — but Selenium's broader language-binding support
 (the WebDriver protocol it speaks is implementable from Python, Java, C#, Ruby, and more) and its decade-old
-Grid architecture ([confirmed directly](https://sigilipelli.github.io/selenium-mastery-path/level-4/01-selenium-grid-architecture/) from the real installed `selenium-server` binary's own `--help` output) remain
+Grid architecture ([confirmed directly](https://learnmasterypath.com/selenium-mastery-path/level-4/01-selenium-grid-architecture/) from the real installed `selenium-server` binary's own `--help` output) remain
 real, mature capabilities Cypress's JavaScript-only, Cloud-gated-parallelism model doesn't match.
 
 ## A direct, lesson-by-lesson comparison

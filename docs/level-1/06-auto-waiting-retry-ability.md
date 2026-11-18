@@ -36,7 +36,7 @@ real `1500ms` delay, not the full default `4000ms` command timeout.
 
 ## The direct, measured contrast with Selenium
 
-This network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-2/01-the-real-race-condition/)
+This network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-2/01-the-real-race-condition/)
 ran the *exact same kind of experiment* — finding a dynamically-appearing element with zero manual wait —
 and measured a real **15 failures out of 15 trials (100%)**. Cypress's real result here is the exact
 opposite: **10 passes out of 10 trials (100%)**, against a conceptually identical delayed-element scenario.

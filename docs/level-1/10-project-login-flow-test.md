@@ -47,7 +47,7 @@ it("navigates from login to the elements page and confirms a fresh state", () =>
 
 ## The real, direct contrast with this network's Selenium capstone
 
-This network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-1/10-project-login-flow-test/) capstone — an almost identical real login-flow test — hit a genuine
+This network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-1/10-project-login-flow-test/) capstone — an almost identical real login-flow test — hit a genuine
 `NoSuchElementException` race condition on its very first real run, because `find_element()` checked the
 real DOM once, immediately after a click, before the app's real response had finished rendering. This
 lesson's Cypress capstone hit **no such failure**, on the first real run, with no manual wait of any kind.

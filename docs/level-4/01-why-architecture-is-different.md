@@ -49,7 +49,7 @@ Every earlier real finding in this course traces back to the same single fact â€
 
 A Selenium or Playwright client is a genuinely separate process (or even a separate machine, via Grid)
 sending commands over a wire protocol to a browser it controls from the outside â€” this course's own sibling
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-1/01-what-webdriver-does/) captured that real HTTP traffic directly. Cypress collapses the "test driver" and "browser" into one
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-1/01-what-webdriver-does/) captured that real HTTP traffic directly. Cypress collapses the "test driver" and "browser" into one
 real process family, injecting its own test-running code directly into the browser alongside the
 application under test. This single architectural choice is the real, common cause behind nearly every
 distinctive Cypress behavior this course has measured: free, built-in auto-waiting (no network round-trip

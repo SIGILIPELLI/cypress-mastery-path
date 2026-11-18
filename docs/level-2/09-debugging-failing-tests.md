@@ -54,7 +54,7 @@ all, and execution continues immediately.
 
 Cypress's own test runner takes a real screenshot automatically whenever a test fails during `cypress run`
 — this is why this course never needed a hand-written `conftest.py`-style hook the way this network's own
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-3/10-project-pom-framework/)
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-3/10-project-pom-framework/)
 did to get the same real capability; it's built in rather than something you have to wire up yourself.
 `cy.debug()` inserts a real `debugger` statement into the command chain and logs the current subject to
 the browser's console — genuinely useful when driving Cypress through actual DevTools in `cypress open`,

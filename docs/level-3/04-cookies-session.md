@@ -46,7 +46,7 @@ measured **~15-18x speedup** from not re-running the login UI at all.
 run; every later call with the same name instead restores the real browser state (cookies, `localStorage`,
 `sessionStorage`) that was captured right after the first run, skipping the setup function entirely. This
 is conceptually the same real motivation as this network's own
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-3/05-pytest-fixtures-for-selenium/), which measured a real `42%` speedup from a session-scoped browser fixture — but `cy.session()`
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-3/05-pytest-fixtures-for-selenium/), which measured a real `42%` speedup from a session-scoped browser fixture — but `cy.session()`
 caches actual *application login state*, not just the browser process, which is why this lesson's speedup
 (~15-18x) is dramatically larger: it isn't just skipping a browser launch, it's skipping the entire real
 UI-driven login flow every single test after the first.

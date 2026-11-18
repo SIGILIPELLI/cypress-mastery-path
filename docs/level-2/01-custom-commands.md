@@ -68,7 +68,7 @@ suite after it's defined — it's not syntactic sugar for a shared function call
 of Cypress's own command queue, which means a custom command auto-waits and chains exactly like a built-in
 one (`cy.login(...)` queues real `cy.visit`, `cy.get`, and `.type` calls, each with its own real
 retry-ability). This lesson's real rename experiment demonstrates the same underlying lesson this network's
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-3/01-why-page-object-model/)
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-3/01-why-page-object-model/)
 measured for the Page Object Model: centralizing a locator in exactly one place means exactly one place
 needs to change when the real application's markup changes, regardless of how many tests depend on it.
 

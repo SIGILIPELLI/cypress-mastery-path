@@ -31,7 +31,7 @@ it("selects a real file built from an in-memory buffer, no disk file needed", ()
 ✓ selects a real file built from an in-memory buffer, no disk file needed (45ms)
 ```
 
-Both real uploads worked cleanly. This network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-2/09-file-upload-stale-elements/) hit a genuine real
+Both real uploads worked cleanly. This network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-2/09-file-upload-stale-elements/) hit a genuine real
 `ERR_ACCESS_DENIED` uploading from a path under `~/Desktop` (fixed by moving the file to `/tmp`) — this
 lesson's real `cypress/fixtures/real-upload.txt` path, also outside any special-cased directory, uploaded
 without any such error.

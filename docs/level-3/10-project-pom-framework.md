@@ -48,7 +48,7 @@ it("logs in and reuses a cached cy.session instead of repeating the UI flow", ()
 
 This capstone's Page Object classes are *not* a Cypress feature — they're ordinary JavaScript classes
 whose methods call real `cy` commands and `return this` for fluent chaining, the identical pattern this
-network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-3/03-fluent-page-objects/) used in Python. That portability is itself a real, useful fact: the Page
+network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-3/03-fluent-page-objects/) used in Python. That portability is itself a real, useful fact: the Page
 Object *pattern* is language- and tool-agnostic, built entirely from each language's own object-oriented
 features, while the methods inside it call whatever commands the specific tool (Cypress here, Selenium
 there) actually provides. The one genuinely Cypress-specific piece in this capstone is wrapping the login

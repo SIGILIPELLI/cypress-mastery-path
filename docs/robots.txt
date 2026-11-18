@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sigilipelli.github.io/selenium-mastery-path/sitemap.xml
+Sitemap: https://learnmasterypath.com/selenium-mastery-path/sitemap.xml

@@ -7,7 +7,7 @@ description: "cy.get() genuinely could not find a real button inside an iframe a
 ## What was run
 
 A real test against a page with a genuine nested `<iframe>`, first using a normal `cy.get()` (which this
-network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-2/06-handling-iframes/) handles natively via `switch_to.frame()`), then a real, documented
+network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-2/06-handling-iframes/) handles natively via `switch_to.frame()`), then a real, documented
 workaround — to see exactly where Cypress's own DOM querying actually stops.
 
 ```javascript

@@ -1,6 +1,6 @@
 site_name: Cypress Mastery Path
 site_description: A free Cypress testing course — real DOM querying, auto-waiting, network stubbing with cy.intercept, custom commands, component testing, and CI integration.
-site_url: https://sigilipelli.github.io/cypress-mastery-path/
+site_url: https://learnmasterypath.com/cypress-mastery-path/
 repo_url: https://github.com/sigilipelli/cypress-mastery-path
 repo_name: cypress-mastery-path
 

@@ -54,7 +54,7 @@ Fix this problem, or use `{force: true}` to disable error checking.
 ```
 
 This is a genuinely different real result from this network's own
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-1/06-interacting-with-elements/),
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-1/06-interacting-with-elements/),
 which found that Selenium's `.click()` on an identical disabled button raises **no exception at all** and
 simply does nothing silently. Cypress's real `.click()` actively checks an element's actionability
 (visible, not disabled, not covered) before clicking, retried for a real 4050ms, and failed loudly with a

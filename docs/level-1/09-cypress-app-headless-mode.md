@@ -46,7 +46,7 @@ available launch targets. Actually running against each told a different story, 
 browser to connect"`, retried twice, then aborted — Firefox was correctly *detected*, but never actually
 connected back to the Cypress process in this sandboxed session. This is a different real failure mode
 than this network's own
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-3/06-cross-browser-testing/),
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-3/06-cross-browser-testing/),
 which found the real Firefox *process itself* crashing with a profile-folder error — here the Firefox
 process starts, but Cypress's own connection handshake to it never completes. Both courses hit a genuine,
 environment-specific Firefox limitation in this sandbox, via two different real mechanisms, and both say so

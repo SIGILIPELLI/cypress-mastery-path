@@ -54,7 +54,7 @@ SCRIPT_EXIT_CODE=2
 ```
 
 Cypress's real exit code here was `2` — matching the exact real count of failing tests, not a generic `1`
-the way this network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-4/07-ci-integration/) found pytest using. The real CI script's own `exit $TEST_EXIT_CODE` correctly
+the way this network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-4/07-ci-integration/) found pytest using. The real CI script's own `exit $TEST_EXIT_CODE` correctly
 propagated that exact number all the way out, confirmed by the final `SCRIPT_EXIT_CODE=2`.
 
 ## How It Actually Works

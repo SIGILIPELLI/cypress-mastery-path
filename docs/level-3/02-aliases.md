@@ -56,7 +56,7 @@ A DOM-element alias in Cypress doesn't store a frozen jQuery object the way a pl
 would — it records *how* to re-find that subject, and Cypress's own command queue replays that lookup each
 time `cy.get("@alias")` is invoked, applying the same real auto-waiting and retry-ability every other query
 gets. This is a genuinely different real behavior from Selenium's `WebElement`, where this course's own
-sibling [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-2/09-file-upload-stale-elements/) demonstrated a `StaleElementReferenceException` thrown the moment an aliased
+sibling [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-2/09-file-upload-stale-elements/) demonstrated a `StaleElementReferenceException` thrown the moment an aliased
 element's underlying node was removed. Cypress doesn't throw here — it simply re-resolves the alias's
 underlying query (`.first()` of `.todo-item`) against the real, current DOM, which is why the result
 changed to a different real element rather than erroring. Value aliases (from `.then()`/`.its()`) and

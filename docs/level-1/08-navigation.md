@@ -33,7 +33,7 @@ it("checks whether typed text survives a real cy.reload()", () => {
 
 Both tests passed — but they prove opposite things. Typed text genuinely survived navigating away and
 coming back via `cy.go("back")`; the identical typed text was completely wiped by `cy.reload()`. This
-matches this network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-1/08-browser-navigation/)'s real finding using Selenium's `.back()` and `.refresh()` against an
+matches this network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-1/08-browser-navigation/)'s real finding using Selenium's `.back()` and `.refresh()` against an
 analogous page — the same real browser-level behavior, now confirmed under Cypress's own navigation
 commands too.
 

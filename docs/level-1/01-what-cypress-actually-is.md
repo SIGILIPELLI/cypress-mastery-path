@@ -46,7 +46,7 @@ ls ~/Desktop/cypress-lab/node_modules/.bin/ | grep -i "cypress\|driver"
 ```
 
 Selenium needs a separate, real `chromedriver` binary — a standalone process the Python client talks to over
-HTTP, which this network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/)
+HTTP, which this network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/)
 verified directly at the wire-protocol level. Cypress's own installed binary list contains no such driver at
 all — `npx cypress --version` reports a bundled Electron browser directly:
 

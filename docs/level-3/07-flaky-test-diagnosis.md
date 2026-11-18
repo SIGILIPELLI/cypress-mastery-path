@@ -51,7 +51,7 @@ Computed: `display: none`, ...
 ## How It Actually Works
 
 This lesson's flakiness has a genuinely different root cause than this network's own
-[Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-3/09-flaky-test-diagnosis/), which distinguished flakiness by real *exception type*
+[Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-3/09-flaky-test-diagnosis/), which distinguished flakiness by real *exception type*
 (`NoSuchElementException` vs `StaleElementReferenceException`) because Selenium's waits are explicit and
 separate from its queries. Cypress's auto-waiting ([Level 1, Lesson 6](../level-1/06-auto-waiting-retry-ability.md)) collapses "wait" and "query" into one retrying command, which means the single most
 useful diagnostic question for Cypress flakiness is usually simpler: **is the configured timeout

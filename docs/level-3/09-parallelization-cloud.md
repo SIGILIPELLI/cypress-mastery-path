@@ -28,7 +28,7 @@ You need to setup this project to record. This will generate a unique projectId.
 
 Both real attempts were refused outright, with specific, actionable error messages. `--parallel` cannot
 run at all without `--record`, and `--record` cannot run without a real `projectId` tied to a Cypress
-Cloud account — unlike this network's own [Selenium Mastery Path](https://sigilipelli.github.io/selenium-mastery-path/level-4/03-parallel-test-execution/), whose `pytest-xdist`-based parallel execution
+Cloud account — unlike this network's own [Selenium Mastery Path](https://learnmasterypath.com/selenium-mastery-path/level-4/03-parallel-test-execution/), whose `pytest-xdist`-based parallel execution
 ran entirely locally with no account or service of any kind.
 
 ## A real, local alternative: batching specs to reduce fixed overhead
