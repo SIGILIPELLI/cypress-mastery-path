@@ -53,9 +53,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -127,3 +129,5 @@ nav:
       - "08 · Cypress vs Playwright: a Real, Honest Comparison": level-4/08-cypress-vs-playwright.md
       - "09 · Common Cypress Anti-Patterns": level-4/09-cypress-antipatterns.md
       - "10 · Capstone — a Real, Complete Test Framework": level-4/10-capstone-complete-test-framework.md
+  - "🎯 Final Quiz": quiz.md
+
