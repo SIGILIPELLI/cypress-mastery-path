@@ -83,7 +83,7 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
+  - Interview Questions: interview-questions.md
   - "Level 1 · Cypress Fundamentals":
       - Overview: level-1/index.md
       - "01 · What Cypress Actually Is": level-1/01-what-cypress-actually-is.md
@@ -132,5 +132,5 @@ nav:
       - "08 · Cypress vs Playwright: a Real, Honest Comparison": level-4/08-cypress-vs-playwright.md
       - "09 · Common Cypress Anti-Patterns": level-4/09-cypress-antipatterns.md
       - "10 · Capstone — a Real, Complete Test Framework": level-4/10-capstone-complete-test-framework.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
