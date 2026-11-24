@@ -1,6 +1,6 @@
 ---
 title: "Free Cypress Testing Course: Auto-Waiting, cy.intercept, Custom Commands"
-description: "Free Cypress course: 36 lessons and 4 projects on DOM querying, auto-waiting, network stubbing, custom commands, component testing, and CI integration."
+description: "Free Cypress course: 36 lessons, 3 projects and 1 capstone on DOM querying, auto-waiting, network stubbing, custom commands, component testing, and CI integration."
 ---
 
 # Cypress Mastery Path
@@ -38,7 +38,7 @@ against both honestly in its final level.
 | **3 · Architecture & Advanced Techniques** | The command queue, aliases, cy.session, flaky-test diagnosis, CI | 10 | Understand why Cypress code behaves the way it does |
 | **4 · Component Testing, Scaling & Comparisons** | Component testing, cy.origin, plugins, Cypress vs Selenium/Playwright | 10 | Scale and ship a real Cypress framework in production |
 
-Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons and 4 projects** in total.
+Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons, 3 projects and 1 capstone** in total.
 
 ## How to use this site
 
