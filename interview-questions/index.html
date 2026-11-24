@@ -1,0 +1,4137 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="179 Cypress interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the Cypress Mastery Path.">
+      
+      
+      
+        <link rel="canonical" href="https://learnmasterypath.com/cypress-mastery-path/interview-questions/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../level-1/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+  
+  <title>Cypress Interview Questions and Answers (179 Questions)</title>
+
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../stylesheets/progress-tracker.css">
+    
+      <link rel="stylesheet" href="../stylesheets/final-quiz.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05VBGCXN12"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-05VBGCXN12');
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mastery Path">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Cypress Interview Questions and Answers (179 Questions)">
+  <meta property="og:description" content="179 Cypress interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the Cypress Mastery Path.">
+  <meta property="og:url" content="https://learnmasterypath.com/cypress-mastery-path/interview-questions/">
+  <meta property="og:image" content="https://learnmasterypath.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mastery Path: free structured courses, beginner to master">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cypress Interview Questions and Answers (179 Questions)">
+  <meta name="twitter:description" content="179 Cypress interview questions with answers and explanations, from beginner to advanced, organised by level. Free, from the Cypress Mastery Path.">
+  <meta name="twitter:image" content="https://learnmasterypath.com/og-image.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9440969811959397"
+     crossorigin="anonymous"></script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Mastery Path", "item": "https://learnmasterypath.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Cypress Mastery Path", "item": "https://learnmasterypath.com/cypress-mastery-path/"},
+      {"@type": "ListItem", "position": 3, "name": "Interview Questions", "item": "https://learnmasterypath.com/cypress-mastery-path/interview-questions/"}
+    ]
+  }
+  </script>
+  <style>
+    .md-banner a:hover { text-decoration: underline !important; }
+    .mp-related { margin-top: 2.4rem; padding-top: 1rem; border-top: 1px solid var(--md-default-fg-color--lightest); font-size: .78rem; }
+    .mp-related h2 { font-size: .9rem; margin: 0 0 .5rem; }
+    .mp-related ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem .9rem; }
+    .mp-related li { margin: 0 !important; }
+  </style>
+  <script type="application/json" id="mp-course-meta">{"home": false, "id": "cypress-mastery-path", "name": "Cypress Mastery Path", "repo": "https://github.com/sigilipelli/cypress-mastery-path", "src": "interview-questions.md", "url": "https://learnmasterypath.com/cypress-mastery-path/"}</script>
+  <link rel="stylesheet" href="https://learnmasterypath.com/assets/learn.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://learnmasterypath.com/assets/course.css?v=1">
+  <script src="https://learnmasterypath.com/assets/learn.js" defer></script>
+  <script src="https://learnmasterypath.com/assets/signup.js" defer></script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cypress-interview-questions-and-answers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+  <a href="https://learnmasterypath.com/" style="color: inherit; text-decoration: none;">
+    &larr; Mastery Path &middot; all 100+ free courses
+  </a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/search/" style="color: inherit; text-decoration: none;">Search all courses</a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/resume/" style="color: inherit; font-weight: 700; text-decoration: none;">
+    Got the skills? Free resume ATS check &rarr;
+  </a>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Cypress Mastery Path" class="md-header__button md-logo" aria-label="Cypress Mastery Path" data-md-component="logo">
+      <svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg>
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Cypress Mastery Path
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cypress Interview Questions and Answers (179 Questions)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/sigilipelli/cypress-mastery-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cypress-mastery-path
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Interview Questions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 1 · Cypress Fundamentals
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-2/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 2 · Intermediate Patterns
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-3/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 3 · Architecture & Advanced Techniques
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../level-4/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Level 4 · Component Testing, Scaling & Comparisons
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../quiz/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Final Quiz
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Cypress Mastery Path" class="md-nav__button md-logo" aria-label="Cypress Mastery Path" data-md-component="logo">
+      <svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg>
+    </a>
+    Cypress Mastery Path
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/sigilipelli/cypress-mastery-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cypress-mastery-path
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-cypress-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1 · Cypress Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 · Cypress Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-cypress-actually-is" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Cypress Actually Is
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-configuring-cypress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing &amp; Configuring Cypress
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#querying-the-dom-cyget-cycontains-cyfind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Querying the DOM: cy.get, cy.contains, cy.find
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interacting-with-elements-type-click-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interacting With Elements: Type, Click, Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assertions-should" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assertions &amp; should()
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-waiting-retry-ability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Waiting &amp; Retry-Ability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forms-dropdowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forms &amp; Dropdowns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-visit-reload-go" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigation: visit, reload, go
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-cypress-app-headless-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cypress App &amp; Headless Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-a-real-login-flow-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project — a Real Login Flow Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-intermediate-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2 · Intermediate Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 · Intermediate Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixtures-test-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixtures &amp; Test Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-stubbing-with-cyintercept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Stubbing With cy.intercept
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calling-apis-directly-with-cyrequest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calling APIs Directly With cy.request
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iframes-a-real-cypress-limitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Iframes: a Real Cypress Limitation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-upload-with-selectfile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File Upload With selectFile
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environment-variables-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment Variables &amp; Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks-before-beforeeach-after-aftereach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks: before, beforeEach, after, afterEach
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging-failing-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging Failing Tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-a-real-network-stubbed-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project — a Real Network-Stubbed Suite
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-architecture-advanced-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3 · Architecture &amp; Advanced Techniques
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 3 · Architecture &amp; Advanced Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-command-queue-why-cypress-code-isnt-actually-async" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Command Queue: Why Cypress Code Isn't Actually Async
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aliases-as-and-alias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aliases: as() and @alias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retry-ability-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retry-Ability Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cookies-local-storage-cysession" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cookies, Local Storage &amp; cy.session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cyintercept-deep-dive-stub-vs-spy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        cy.intercept Deep Dive: Stub vs Spy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screenshots-videos-on-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screenshots &amp; Videos on Failure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flaky-test-diagnosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flaky Test Diagnosis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ci-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CI Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parallelization-cypress-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parallelization &amp; Cypress Cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-a-real-pom-framework-with-custom-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project — a Real POM Framework With Custom Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-component-testing-scaling-comparisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4 · Component Testing, Scaling &amp; Comparisons
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 4 · Component Testing, Scaling &amp; Comparisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-cypresss-architecture-is-different" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Cypress's Architecture Is Different
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#component-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Component Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-origins-cyorigin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Origins &amp; cy.origin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-same-origin-constraint-investigated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Same-Origin Constraint, Investigated
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plugins-cytask" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plugins &amp; cy.task
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-measuring-real-command-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance: Measuring Real Command Timing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cypress-vs-selenium-a-real-honest-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cypress vs Selenium: a Real, Honest Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cypress-vs-playwright-a-real-honest-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cypress vs Playwright: a Real, Honest Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-cypress-anti-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Cypress Anti-Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capstone-a-real-complete-test-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capstone — a Real, Complete Test Framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixed-questions-across-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixed questions across all levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-coding-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical coding questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practical coding questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#model-retry-ability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model retry-ability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-the-command-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model the command queue
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 1 · Cypress Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 1 · Cypress Fundamentals
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/01-what-cypress-actually-is/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · What Cypress Actually Is
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/02-installing-configuring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Installing & Configuring Cypress
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/03-querying-the-dom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Querying the DOM: cy.get, cy.contains, cy.find
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/04-interacting-with-elements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Interacting With Elements: Type, Click, Check
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/05-assertions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Assertions & should()
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/06-auto-waiting-retry-ability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Auto-Waiting & Retry-Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/07-forms-dropdowns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Forms & Dropdowns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/08-navigation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Navigation: visit, reload, go
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/09-cypress-app-headless-mode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · The Cypress App & Headless Mode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-1/10-project-login-flow-test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — a Real Login Flow Test
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 2 · Intermediate Patterns
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 2 · Intermediate Patterns
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/01-custom-commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Custom Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/02-fixtures-test-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Fixtures & Test Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/03-network-stubbing-intercept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Network Stubbing With cy.intercept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/04-cy-request/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Calling APIs Directly With cy.request
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/05-iframes-real-limitation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Iframes: a Real Cypress Limitation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/06-file-upload/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · File Upload With selectFile
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/07-env-variables-config/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Environment Variables & Configuration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/08-hooks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Hooks: before, beforeEach, after, afterEach
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/09-debugging-failing-tests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Debugging Failing Tests
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-2/10-project-network-stubbed-suite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — a Real Network-Stubbed Suite
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 3 · Architecture & Advanced Techniques
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 3 · Architecture & Advanced Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/01-the-command-queue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · The Command Queue: Why Cypress Code Isn't Actually Async
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/02-aliases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Aliases: as() and @alias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/03-retry-ability-pitfalls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Retry-Ability Pitfalls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/04-cookies-session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · Cookies, Local Storage & cy.session
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/05-intercept-deep-dive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · cy.intercept Deep Dive: Stub vs Spy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/06-screenshots-videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Screenshots & Videos on Failure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/07-flaky-test-diagnosis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Flaky Test Diagnosis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/08-ci-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · CI Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/09-parallelization-cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Parallelization & Cypress Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-3/10-project-pom-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Project — a Real POM Framework With Custom Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../level-4/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level 4 · Component Testing, Scaling & Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Level 4 · Component Testing, Scaling & Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/01-why-architecture-is-different/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 · Why Cypress's Architecture Is Different
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/02-component-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 · Component Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/03-multiple-origins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 · Multiple Origins & cy.origin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/04-same-origin-constraint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 · The Same-Origin Constraint, Investigated
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/05-plugins-cy-task/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 · Plugins & cy.task
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/06-performance-measuring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 · Performance: Measuring Real Command Timing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/07-cypress-vs-selenium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 · Cypress vs Selenium: a Real, Honest Comparison
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/08-cypress-vs-playwright/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 · Cypress vs Playwright: a Real, Honest Comparison
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/09-cypress-antipatterns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 · Common Cypress Anti-Patterns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../level-4/10-capstone-complete-test-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 · Capstone — a Real, Complete Test Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quiz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Quiz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#level-1-cypress-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1 · Cypress Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 · Cypress Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-cypress-actually-is" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Cypress Actually Is
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-configuring-cypress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing &amp; Configuring Cypress
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#querying-the-dom-cyget-cycontains-cyfind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Querying the DOM: cy.get, cy.contains, cy.find
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interacting-with-elements-type-click-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interacting With Elements: Type, Click, Check
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assertions-should" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assertions &amp; should()
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-waiting-retry-ability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Waiting &amp; Retry-Ability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forms-dropdowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forms &amp; Dropdowns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-visit-reload-go" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigation: visit, reload, go
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-cypress-app-headless-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cypress App &amp; Headless Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-a-real-login-flow-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project — a Real Login Flow Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-2-intermediate-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2 · Intermediate Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 2 · Intermediate Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixtures-test-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixtures &amp; Test Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-stubbing-with-cyintercept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Stubbing With cy.intercept
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calling-apis-directly-with-cyrequest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calling APIs Directly With cy.request
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iframes-a-real-cypress-limitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Iframes: a Real Cypress Limitation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-upload-with-selectfile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File Upload With selectFile
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#environment-variables-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment Variables &amp; Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hooks-before-beforeeach-after-aftereach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hooks: before, beforeEach, after, afterEach
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging-failing-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging Failing Tests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-a-real-network-stubbed-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project — a Real Network-Stubbed Suite
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-3-architecture-advanced-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3 · Architecture &amp; Advanced Techniques
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 3 · Architecture &amp; Advanced Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-command-queue-why-cypress-code-isnt-actually-async" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Command Queue: Why Cypress Code Isn't Actually Async
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aliases-as-and-alias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aliases: as() and @alias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retry-ability-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Retry-Ability Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cookies-local-storage-cysession" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cookies, Local Storage &amp; cy.session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cyintercept-deep-dive-stub-vs-spy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        cy.intercept Deep Dive: Stub vs Spy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screenshots-videos-on-failure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Screenshots &amp; Videos on Failure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flaky-test-diagnosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flaky Test Diagnosis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ci-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CI Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parallelization-cypress-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parallelization &amp; Cypress Cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#project-a-real-pom-framework-with-custom-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project — a Real POM Framework With Custom Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-4-component-testing-scaling-comparisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4 · Component Testing, Scaling &amp; Comparisons
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 4 · Component Testing, Scaling &amp; Comparisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-cypresss-architecture-is-different" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Cypress's Architecture Is Different
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#component-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Component Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-origins-cyorigin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Origins &amp; cy.origin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-same-origin-constraint-investigated" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Same-Origin Constraint, Investigated
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plugins-cytask" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plugins &amp; cy.task
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-measuring-real-command-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance: Measuring Real Command Timing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cypress-vs-selenium-a-real-honest-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cypress vs Selenium: a Real, Honest Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cypress-vs-playwright-a-real-honest-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cypress vs Playwright: a Real, Honest Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-cypress-anti-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Cypress Anti-Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capstone-a-real-complete-test-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capstone — a Real, Complete Test Framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mixed-questions-across-all-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mixed questions across all levels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-coding-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical coding questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Practical coding questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#model-retry-ability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model retry-ability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-the-command-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model the command queue
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+  
+
+
+<h1 id="cypress-interview-questions-and-answers">Cypress Interview Questions and Answers<a class="headerlink" href="#cypress-interview-questions-and-answers" title="Permanent link">&para;</a></h1>
+<p><strong>179 questions</strong> with the correct answer and a short explanation, organised from beginner (Level 1) to advanced (Level 4). Every question comes from a lesson in the free Cypress Mastery Path, so you can open the lesson to go deeper.</p>
+<div class="admonition tip">
+<p class="admonition-title">Practise, don't just read</p>
+<p>Each lesson also ends with an interactive quiz, and the <a href="../quiz/">final quiz</a> tests all four levels. Try to answer each question below before reading the answer.</p>
+</div>
+<h2 id="level-1-cypress-fundamentals">Level 1 · Cypress Fundamentals<a class="headerlink" href="#level-1-cypress-fundamentals" title="Permanent link">&para;</a></h2>
+<h3 id="what-cypress-actually-is"><a href="../level-1/01-what-cypress-actually-is/">What Cypress Actually Is</a><a class="headerlink" href="#what-cypress-actually-is" title="Permanent link">&para;</a></h3>
+<p><strong>Q1.</strong> What is Cypress's defining architectural choice?</p>
+<p><strong>Answer:</strong> Test code runs inside the same browser as the application under test</p>
+<p>That gives direct access to the app's window and network layer.</p>
+<p><strong>Q2.</strong> Which kinds of tests is Cypress built for?</p>
+<p><strong>Answer:</strong> End-to-end tests of web apps (and component tests) written in JavaScript/TypeScript</p>
+<p>It targets the browser.</p>
+<p><strong>Q3.</strong> Why do Cypress tests have direct access to the page's window object?</p>
+<p><strong>Answer:</strong> Because the test code executes in the same browser context as the app</p>
+<p>Observable consequence of the architecture.</p>
+<p><strong>Q4.</strong> What's a downside of running inside the browser?</p>
+<p><strong>Answer:</strong> Constraints like same-origin rules and limited multi-tab support</p>
+<p>Later lessons cover these limits.</p>
+<h3 id="installing-configuring-cypress"><a href="../level-1/02-installing-configuring/">Installing &amp; Configuring Cypress</a><a class="headerlink" href="#installing-configuring-cypress" title="Permanent link">&para;</a></h3>
+<p><strong>Q5.</strong> What does <code>npm install cypress --save-dev</code> do?</p>
+<p><strong>Answer:</strong> Installs Cypress as a dev dependency of the project</p>
+<p>The binary is downloaded on install.</p>
+<p><strong>Q6.</strong> Where do you set baseUrl and spec patterns?</p>
+<p><strong>Answer:</strong> cypress.config.js (or .ts)</p>
+<p>Configuration lives there.</p>
+<p><strong>Q7.</strong> What does <code>baseUrl</code> let you do?</p>
+<p><strong>Answer:</strong> Use relative paths like cy.visit('/login')</p>
+<p>Cleaner tests.</p>
+<p><strong>Q8.</strong> Why verify configuration by running tests rather than trusting defaults?</p>
+<p><strong>Answer:</strong> Defaults and docs can differ from actual behavior on your setup</p>
+<p>The lesson tests what config actually controls.</p>
+<h3 id="querying-the-dom-cyget-cycontains-cyfind"><a href="../level-1/03-querying-the-dom/">Querying the DOM: cy.get, cy.contains, cy.find</a><a class="headerlink" href="#querying-the-dom-cyget-cycontains-cyfind" title="Permanent link">&para;</a></h3>
+<p><strong>Q9.</strong> What does cy.get('.item') do?</p>
+<p><strong>Answer:</strong> Queries the DOM for elements matching the selector, retrying until found or timeout</p>
+<p>Queries retry.</p>
+<p><strong>Q10.</strong> How does cy.contains('Login') differ from cy.get?</p>
+<p><strong>Answer:</strong> It finds an element by its text content</p>
+<p>Useful for visible text.</p>
+<p><strong>Q11.</strong> What does <code>.find()</code> do?</p>
+<p><strong>Answer:</strong> Searches for descendants within the previously yielded subject</p>
+<p>Chain from a parent.</p>
+<p><strong>Q12.</strong> What does Cypress show when a selector isn't found?</p>
+<p><strong>Answer:</strong> A specific timed-out error saying it failed to find the element after retrying</p>
+<p>The lesson captures the real message.</p>
+<h3 id="interacting-with-elements-type-click-check"><a href="../level-1/04-interacting-with-elements/">Interacting With Elements: Type, Click, Check</a><a class="headerlink" href="#interacting-with-elements-type-click-check" title="Permanent link">&para;</a></h3>
+<p><strong>Q13.</strong> What does .type('hello') do?</p>
+<p><strong>Answer:</strong> Types text into the focused or yielded input</p>
+<p>Supports special keys like {enter}.</p>
+<p><strong>Q14.</strong> What happens when you .click() a disabled button?</p>
+<p><strong>Answer:</strong> Cypress fails by default, because it checks actionability</p>
+<p>Use {force:true} only knowingly.</p>
+<p><strong>Q15.</strong> What does .check() act on?</p>
+<p><strong>Answer:</strong> Checkboxes and radio buttons</p>
+<p>.uncheck() clears.</p>
+<p><strong>Q16.</strong> Why does Cypress check actionability before clicking?</p>
+<p><strong>Answer:</strong> To act like a real user: element must be visible, enabled and not covered</p>
+<p>Avoids false passes.</p>
+<h3 id="assertions-should"><a href="../level-1/05-assertions/">Assertions &amp; should()</a><a class="headerlink" href="#assertions-should" title="Permanent link">&para;</a></h3>
+<p><strong>Q17.</strong> What does <code>cy.get('h1').should('have.text','Todos')</code> do?</p>
+<p><strong>Answer:</strong> Retries until the heading's text matches or timeout</p>
+<p>should is retryable.</p>
+<p><strong>Q18.</strong> When is <code>expect()</code> appropriate?</p>
+<p><strong>Answer:</strong> On values already extracted, e.g. inside .then()</p>
+<p>expect doesn't retry.</p>
+<p><strong>Q19.</strong> What does <code>.and()</code> do?</p>
+<p><strong>Answer:</strong> Chains another assertion on the same subject (alias of should)</p>
+<p>Readable.</p>
+<p><strong>Q20.</strong> Why can a should with a callback retry?</p>
+<p><strong>Answer:</strong> Cypress re-runs the callback until it passes or times out</p>
+<p>Callbacks must be idempotent.</p>
+<h3 id="auto-waiting-retry-ability"><a href="../level-1/06-auto-waiting-retry-ability/">Auto-Waiting &amp; Retry-Ability</a><a class="headerlink" href="#auto-waiting-retry-ability" title="Permanent link">&para;</a></h3>
+<p><strong>Q21.</strong> What does automatic retry-ability do for a 1.5s-delayed element?</p>
+<p><strong>Answer:</strong> Cypress keeps retrying the query/assertion until it appears (default timeout 4s)</p>
+<p>No manual waits needed.</p>
+<p><strong>Q22.</strong> Why run the test 10 times in the lesson?</p>
+<p><strong>Answer:</strong> To measure real reliability rather than trust one lucky pass</p>
+<p>Flakiness is statistical.</p>
+<p><strong>Q23.</strong> What's wrong with <code>cy.wait(2000)</code> for an element?</p>
+<p><strong>Answer:</strong> Arbitrary sleeps are slow and brittle; assert on the condition instead</p>
+<p>Use assertions.</p>
+<p><strong>Q24.</strong> What's the default command timeout?</p>
+<p><strong>Answer:</strong> 4 seconds</p>
+<p>Configurable via defaultCommandTimeout.</p>
+<h3 id="forms-dropdowns"><a href="../level-1/07-forms-dropdowns/">Forms &amp; Dropdowns</a><a class="headerlink" href="#forms-dropdowns" title="Permanent link">&para;</a></h3>
+<p><strong>Q25.</strong> Which command picks a dropdown option?</p>
+<p><strong>Answer:</strong> cy.get('select').select('value or text')</p>
+<p>Works with value or visible text.</p>
+<p><strong>Q26.</strong> How do you choose a radio option?</p>
+<p><strong>Answer:</strong> cy.get('input[type=radio]').check('value')</p>
+<p>check handles radios.</p>
+<p><strong>Q27.</strong> What should a login-form test assert after submit?</p>
+<p><strong>Answer:</strong> The resulting UI or URL change, such as a welcome message</p>
+<p>Verify outcomes.</p>
+<p><strong>Q28.</strong> Why prefer data-* attributes for selectors?</p>
+<p><strong>Answer:</strong> They're stable and independent of styling and structure</p>
+<p>data-cy / data-testid.</p>
+<h3 id="navigation-visit-reload-go"><a href="../level-1/08-navigation/">Navigation: visit, reload, go</a><a class="headerlink" href="#navigation-visit-reload-go" title="Permanent link">&para;</a></h3>
+<p><strong>Q29.</strong> What does cy.visit('/page') do?</p>
+<p><strong>Answer:</strong> Loads the page and waits for the load event</p>
+<p>Fails on non-2xx by default.</p>
+<p><strong>Q30.</strong> Does text typed into an input survive cy.go('back') then forward?</p>
+<p><strong>Answer:</strong> It depends on browser form restoration, so test it rather than assume</p>
+<p>The lesson checks real state.</p>
+<p><strong>Q31.</strong> What does cy.reload() do?</p>
+<p><strong>Answer:</strong> Reloads the current page</p>
+<p>State resets except persisted storage.</p>
+<p><strong>Q32.</strong> What does cy.location('pathname') yield?</p>
+<p><strong>Answer:</strong> The current URL path for assertion</p>
+<p>Use should to assert.</p>
+<h3 id="the-cypress-app-headless-mode"><a href="../level-1/09-cypress-app-headless-mode/">The Cypress App &amp; Headless Mode</a><a class="headerlink" href="#the-cypress-app-headless-mode" title="Permanent link">&para;</a></h3>
+<p><strong>Q33.</strong> What is <code>cypress run</code>?</p>
+<p><strong>Answer:</strong> Headless execution, typically for CI</p>
+<p>cypress open is the interactive runner.</p>
+<p><strong>Q34.</strong> Which browser does Cypress use by default in run mode?</p>
+<p><strong>Answer:</strong> Its bundled Electron</p>
+<p>Use --browser chrome for others.</p>
+<p><strong>Q35.</strong> What does <code>cypress info</code> show?</p>
+<p><strong>Answer:</strong> Detected browsers and environment details</p>
+<p>Helps debug setup.</p>
+<p><strong>Q36.</strong> Why run in headless mode on CI?</p>
+<p><strong>Answer:</strong> No display is needed and it's scriptable and faster</p>
+<p>Videos and screenshots can still be saved.</p>
+<h3 id="project-a-real-login-flow-test"><a href="../level-1/10-project-login-flow-test/">Project — a Real Login Flow Test</a><a class="headerlink" href="#project-a-real-login-flow-test" title="Permanent link">&para;</a></h3>
+<p><strong>Q37.</strong> What makes the login-flow project good practice?</p>
+<p><strong>Answer:</strong> Zero manual waits and assertions that retry</p>
+<p>Combines the level's techniques.</p>
+<p><strong>Q38.</strong> How should invalid login be tested?</p>
+<p><strong>Answer:</strong> Assert the specific error message appears</p>
+<p>Verify behavior.</p>
+<p><strong>Q39.</strong> Where should test data live?</p>
+<p><strong>Answer:</strong> In fixtures or config, not hard-coded across tests</p>
+<p>Reusable.</p>
+<p><strong>Q40.</strong> What makes each test independent?</p>
+<p><strong>Answer:</strong> It sets up its own state and doesn't rely on previous tests</p>
+<p>Independent tests.</p>
+<h2 id="level-2-intermediate-patterns">Level 2 · Intermediate Patterns<a class="headerlink" href="#level-2-intermediate-patterns" title="Permanent link">&para;</a></h2>
+<h3 id="custom-commands"><a href="../level-2/01-custom-commands/">Custom Commands</a><a class="headerlink" href="#custom-commands" title="Permanent link">&para;</a></h3>
+<p><strong>Q41.</strong> What does Cypress.Commands.add('login', ...) create?</p>
+<p><strong>Answer:</strong> A reusable custom command callable as cy.login()</p>
+<p>Centralizes repeated flows.</p>
+<p><strong>Q42.</strong> What did renaming the login button's id show?</p>
+<p><strong>Answer:</strong> With a custom command only one place needs fixing instead of every test</p>
+<p>The cost of duplication.</p>
+<p><strong>Q43.</strong> Where are custom commands usually defined?</p>
+<p><strong>Answer:</strong> cypress/support/commands.js</p>
+<p>Loaded before specs.</p>
+<p><strong>Q44.</strong> When is a custom command a bad idea?</p>
+<p><strong>Answer:</strong> When it hides assertions or becomes a grab-bag; keep them focused</p>
+<p>Prefer clarity.</p>
+<h3 id="fixtures-test-data"><a href="../level-2/02-fixtures-test-data/">Fixtures &amp; Test Data</a><a class="headerlink" href="#fixtures-test-data" title="Permanent link">&para;</a></h3>
+<p><strong>Q45.</strong> What does cy.fixture('users') do?</p>
+<p><strong>Answer:</strong> Loads data from cypress/fixtures/users.json</p>
+<p>Great for data-driven tests.</p>
+<p><strong>Q46.</strong> How do you drive the same flow with several data rows?</p>
+<p><strong>Answer:</strong> Loop over fixture rows and generate tests/iterations</p>
+<p>Data-driven testing.</p>
+<p><strong>Q47.</strong> What's a benefit of JSON fixtures?</p>
+<p><strong>Answer:</strong> Separates data from test logic</p>
+<p>Easier maintenance.</p>
+<p><strong>Q48.</strong> Can fixtures also stub network responses?</p>
+<p><strong>Answer:</strong> Yes, via cy.intercept(..., { fixture: 'file.json' })</p>
+<p>Combines two features.</p>
+<h3 id="network-stubbing-with-cyintercept"><a href="../level-2/03-network-stubbing-intercept/">Network Stubbing With cy.intercept</a><a class="headerlink" href="#network-stubbing-with-cyintercept" title="Permanent link">&para;</a></h3>
+<p><strong>Q49.</strong> What does cy.intercept() do?</p>
+<p><strong>Answer:</strong> Spies on or stubs network requests</p>
+<p>Matches by method and URL.</p>
+<p><strong>Q50.</strong> What's the difference between spying and stubbing?</p>
+<p><strong>Answer:</strong> Spying observes real requests; stubbing returns a fake response</p>
+<p>Choose by need.</p>
+<p><strong>Q51.</strong> Why stub a server error response?</p>
+<p><strong>Answer:</strong> To test the UI's error handling deterministically</p>
+<p>Hard to trigger otherwise.</p>
+<p><strong>Q52.</strong> How do you wait for an intercepted request to complete?</p>
+<p><strong>Answer:</strong> Alias it and cy.wait('@alias')</p>
+<p>Wait on the route, not time.</p>
+<h3 id="calling-apis-directly-with-cyrequest"><a href="../level-2/04-cy-request/">Calling APIs Directly With cy.request</a><a class="headerlink" href="#calling-apis-directly-with-cyrequest" title="Permanent link">&para;</a></h3>
+<p><strong>Q53.</strong> What does cy.request() do?</p>
+<p><strong>Answer:</strong> Makes an HTTP request directly from Cypress, bypassing the browser UI</p>
+<p>Useful for setup.</p>
+<p><strong>Q54.</strong> What happens on a 401 from cy.request by default?</p>
+<p><strong>Answer:</strong> The command fails unless failOnStatusCode is false</p>
+<p>Unlike fetch.</p>
+<p><strong>Q55.</strong> Why log in via cy.request?</p>
+<p><strong>Answer:</strong> Faster and more reliable than UI login for setup</p>
+<p>Test the login UI separately.</p>
+<p><strong>Q56.</strong> Why seed data via API?</p>
+<p><strong>Answer:</strong> Quick known state without clicking through the UI</p>
+<p>Isolation.</p>
+<h3 id="iframes-a-real-cypress-limitation"><a href="../level-2/05-iframes-real-limitation/">Iframes: a Real Cypress Limitation</a><a class="headerlink" href="#iframes-a-real-cypress-limitation" title="Permanent link">&para;</a></h3>
+<p><strong>Q57.</strong> Why can't cy.get see inside an iframe by default?</p>
+<p><strong>Answer:</strong> The iframe has a separate document; cy.get queries the top document</p>
+<p>A real limitation.</p>
+<p><strong>Q58.</strong> What's the usual workaround?</p>
+<p><strong>Answer:</strong> Access iframe.contentDocument body and wrap it, or use a plugin</p>
+<p>Custom command.</p>
+<p><strong>Q59.</strong> What does the course say about the iframe limitation?</p>
+<p><strong>Answer:</strong> It's reported honestly as a real limitation</p>
+<p>Accuracy.</p>
+<p><strong>Q60.</strong> Cross-origin iframes add what difficulty?</p>
+<p><strong>Answer:</strong> Same-origin policy blocks access to their DOM</p>
+<p>Browser-enforced.</p>
+<h3 id="file-upload-with-selectfile"><a href="../level-2/06-file-upload/">File Upload With selectFile</a><a class="headerlink" href="#file-upload-with-selectfile" title="Permanent link">&para;</a></h3>
+<p><strong>Q61.</strong> How do you upload a file in Cypress?</p>
+<p><strong>Answer:</strong> cy.get('input[type=file]').selectFile('path')</p>
+<p>selectFile is built in.</p>
+<p><strong>Q62.</strong> Where do upload fixtures live?</p>
+<p><strong>Answer:</strong> cypress/fixtures</p>
+<p>Reference by path.</p>
+<p><strong>Q63.</strong> What should you assert after upload?</p>
+<p><strong>Answer:</strong> The UI shows the file name or success message</p>
+<p>Verify outcome.</p>
+<p><strong>Q64.</strong> What does selectFile's drag-drop action do?</p>
+<p><strong>Answer:</strong> Simulates dropping the file onto a drop zone</p>
+<p>{ action: 'drag-drop' }.</p>
+<h3 id="environment-variables-configuration"><a href="../level-2/07-env-variables-config/">Environment Variables &amp; Configuration</a><a class="headerlink" href="#environment-variables-configuration" title="Permanent link">&para;</a></h3>
+<p><strong>Q65.</strong> How do you read an environment variable in a test?</p>
+<p><strong>Answer:</strong> Cypress.env('NAME')</p>
+<p>Set via config, env file or CLI.</p>
+<p><strong>Q66.</strong> How do you pass env vars on the command line?</p>
+<p><strong>Answer:</strong> --env KEY=value</p>
+<p>CI friendly.</p>
+<p><strong>Q67.</strong> Why keep secrets out of cypress.config.js committed files?</p>
+<p><strong>Answer:</strong> They'd leak in source control; use CI secrets</p>
+<p>Never commit secrets.</p>
+<p><strong>Q68.</strong> What's baseUrl per environment used for?</p>
+<p><strong>Answer:</strong> Pointing the same tests at staging or local</p>
+<p>Override in CLI.</p>
+<h3 id="hooks-before-beforeeach-after-aftereach"><a href="../level-2/08-hooks/">Hooks: before, beforeEach, after, afterEach</a><a class="headerlink" href="#hooks-before-beforeeach-after-aftereach" title="Permanent link">&para;</a></h3>
+<p><strong>Q69.</strong> Which hook runs before each test?</p>
+<p><strong>Answer:</strong> beforeEach</p>
+<p>before runs once per describe.</p>
+<p><strong>Q70.</strong> What belongs in beforeEach?</p>
+<p><strong>Answer:</strong> Setup that gives each test a fresh known state</p>
+<p>Isolation.</p>
+<p><strong>Q71.</strong> Why avoid relying on test order?</p>
+<p><strong>Answer:</strong> Tests should be independent and runnable alone</p>
+<p>Order dependence causes flakes.</p>
+<p><strong>Q72.</strong> What does <code>afterEach</code> risk?</p>
+<p><strong>Answer:</strong> Cleanup may not run if the browser crashes; prefer cleaning in setup</p>
+<p>Cypress guidance.</p>
+<h3 id="debugging-failing-tests"><a href="../level-2/09-debugging-failing-tests/">Debugging Failing Tests</a><a class="headerlink" href="#debugging-failing-tests" title="Permanent link">&para;</a></h3>
+<p><strong>Q73.</strong> What does cy.pause() or .debug() help with?</p>
+<p><strong>Answer:</strong> Stopping the run to inspect state</p>
+<p>Debugging.</p>
+<p><strong>Q74.</strong> What does the Command Log show?</p>
+<p><strong>Answer:</strong> Each command and its snapshot you can time-travel through</p>
+<p>Hover to see DOM.</p>
+<p><strong>Q75.</strong> How do you see a failing test's page state in CI?</p>
+<p><strong>Answer:</strong> Screenshots and videos saved on failure</p>
+<p>Configured by default for run.</p>
+<p><strong>Q76.</strong> What's a good first step for a failing selector?</p>
+<p><strong>Answer:</strong> Check the DOM snapshot at that step to see what exists</p>
+<p>Time-travel debugging.</p>
+<h3 id="project-a-real-network-stubbed-suite"><a href="../level-2/10-project-network-stubbed-suite/">Project — a Real Network-Stubbed Suite</a><a class="headerlink" href="#project-a-real-network-stubbed-suite" title="Permanent link">&para;</a></h3>
+<p><strong>Q77.</strong> What does the network-stubbed suite achieve?</p>
+<p><strong>Answer:</strong> Fast deterministic tests independent of the backend</p>
+<p>Stubs control responses.</p>
+<p><strong>Q78.</strong> What should still be tested without stubs?</p>
+<p><strong>Answer:</strong> A few real end-to-end flows to catch integration issues</p>
+<p>Balance.</p>
+<p><strong>Q79.</strong> What does asserting on the request body check?</p>
+<p><strong>Answer:</strong> That the UI sends the right payload</p>
+<p>Use the intercept alias.</p>
+<p><strong>Q80.</strong> What risk comes from heavily stubbed tests?</p>
+<p><strong>Answer:</strong> Stubs can drift from the real API, hiding breakage</p>
+<p>Contract tests help.</p>
+<h2 id="level-3-architecture-advanced-techniques">Level 3 · Architecture &amp; Advanced Techniques<a class="headerlink" href="#level-3-architecture-advanced-techniques" title="Permanent link">&para;</a></h2>
+<h3 id="the-command-queue-why-cypress-code-isnt-actually-async"><a href="../level-3/01-the-command-queue/">The Command Queue: Why Cypress Code Isn't Actually Async</a><a class="headerlink" href="#the-command-queue-why-cypress-code-isnt-actually-async" title="Permanent link">&para;</a></h3>
+<p><strong>Q81.</strong> How does Cypress execute commands?</p>
+<p><strong>Answer:</strong> Queues them and runs asynchronously in order; commands don't return values directly</p>
+<p>The command queue.</p>
+<p><strong>Q82.</strong> Why does <code>const el = cy.get('x')</code> not give an element?</p>
+<p><strong>Answer:</strong> cy commands return chainables, not elements; use .then() or aliases</p>
+<p>Async queue.</p>
+<p><strong>Q83.</strong> When does the queued command actually run?</p>
+<p><strong>Answer:</strong> After the test function finishes enqueueing, in order</p>
+<p>Enqueue first.</p>
+<p><strong>Q84.</strong> Why does mixing plain JS async/await with cy commands cause trouble?</p>
+<p><strong>Answer:</strong> Cypress commands aren't promises and don't work with await</p>
+<p>Use .then.</p>
+<h3 id="aliases-as-and-alias"><a href="../level-3/02-aliases/">Aliases: as() and @alias</a><a class="headerlink" href="#aliases-as-and-alias" title="Permanent link">&para;</a></h3>
+<p><strong>Q85.</strong> What does .as('todos') do?</p>
+<p><strong>Answer:</strong> Creates an alias for later reference</p>
+<p>Use @todos.</p>
+<p><strong>Q86.</strong> How do you reference an element alias?</p>
+<p><strong>Answer:</strong> cy.get('@todos')</p>
+<p>For intercepts too.</p>
+<p><strong>Q87.</strong> Why use aliases for intercepts?</p>
+<p><strong>Answer:</strong> To wait on and assert about specific requests</p>
+<p>cy.wait('@alias').</p>
+<p><strong>Q88.</strong> What does <code>this.alias</code> require?</p>
+<p><strong>Answer:</strong> Using function() rather than an arrow function and a context</p>
+<p>this binding.</p>
+<h3 id="retry-ability-pitfalls"><a href="../level-3/03-retry-ability-pitfalls/">Retry-Ability Pitfalls</a><a class="headerlink" href="#retry-ability-pitfalls" title="Permanent link">&para;</a></h3>
+<p><strong>Q89.</strong> What does retry-ability retry?</p>
+<p><strong>Answer:</strong> Queries and assertions, not actions like click</p>
+<p>Only the last query + assertions.</p>
+<p><strong>Q90.</strong> Why is <code>cy.get('x').click().should('...')</code> risky?</p>
+<p><strong>Answer:</strong> Click isn't retried, so a re-render between can break the chain</p>
+<p>Re-query after actions.</p>
+<p><strong>Q91.</strong> What causes detached DOM errors?</p>
+<p><strong>Answer:</strong> Element re-rendered between query and action</p>
+<p>Re-query.</p>
+<p><strong>Q92.</strong> How do you make assertions robust?</p>
+<p><strong>Answer:</strong> Assert on the stable end state, not intermediate steps</p>
+<p>Simplify.</p>
+<h3 id="cookies-local-storage-cysession"><a href="../level-3/04-cookies-session/">Cookies, Local Storage &amp; cy.session</a><a class="headerlink" href="#cookies-local-storage-cysession" title="Permanent link">&para;</a></h3>
+<p><strong>Q93.</strong> What does cy.session() do?</p>
+<p><strong>Answer:</strong> Caches and restores login state (cookies/localStorage) across tests</p>
+<p>Speeds up auth.</p>
+<p><strong>Q94.</strong> What does cy.clearCookies() do?</p>
+<p><strong>Answer:</strong> Removes cookies for isolation</p>
+<p>Cypress clears automatically between tests.</p>
+<p><strong>Q95.</strong> Why log in once per spec via session?</p>
+<p><strong>Answer:</strong> Saves time versus UI login before every test</p>
+<p>Validate with a function.</p>
+<p><strong>Q96.</strong> How do you set a cookie?</p>
+<p><strong>Answer:</strong> cy.setCookie(name, value)</p>
+<p>Quick auth.</p>
+<h3 id="cyintercept-deep-dive-stub-vs-spy"><a href="../level-3/05-intercept-deep-dive/">cy.intercept Deep Dive: Stub vs Spy</a><a class="headerlink" href="#cyintercept-deep-dive-stub-vs-spy" title="Permanent link">&para;</a></h3>
+<p><strong>Q97.</strong> What can cy.intercept's routeHandler do?</p>
+<p><strong>Answer:</strong> Modify request or response, delay or fail it</p>
+<p>Full control.</p>
+<p><strong>Q98.</strong> How do you simulate a slow network?</p>
+<p><strong>Answer:</strong> Use delay in a stub or throttle the response</p>
+<p>Deterministic.</p>
+<p><strong>Q99.</strong> How do you assert a request body?</p>
+<p><strong>Answer:</strong> Intercept with alias then cy.wait('@alias').its('request.body')</p>
+<p>Inspect the interception.</p>
+<p><strong>Q100.</strong> What happens with overlapping intercept routes?</p>
+<p><strong>Answer:</strong> Handlers run in reverse definition order until one responds</p>
+<p>Most recent first.</p>
+<h3 id="screenshots-videos-on-failure"><a href="../level-3/06-screenshots-videos/">Screenshots &amp; Videos on Failure</a><a class="headerlink" href="#screenshots-videos-on-failure" title="Permanent link">&para;</a></h3>
+<p><strong>Q101.</strong> When are screenshots taken automatically?</p>
+<p><strong>Answer:</strong> On failure in cypress run</p>
+<p>Configurable.</p>
+<p><strong>Q102.</strong> Where are videos useful?</p>
+<p><strong>Answer:</strong> Diagnosing CI failures you can't watch live</p>
+<p>Run mode records them.</p>
+<p><strong>Q103.</strong> What does cy.screenshot() do?</p>
+<p><strong>Answer:</strong> Captures the page or an element on demand</p>
+<p>Visual evidence.</p>
+<p><strong>Q104.</strong> Why keep artifacts as CI outputs?</p>
+<p><strong>Answer:</strong> Developers can inspect failures after the run</p>
+<p>Upload them.</p>
+<h3 id="flaky-test-diagnosis"><a href="../level-3/07-flaky-test-diagnosis/">Flaky Test Diagnosis</a><a class="headerlink" href="#flaky-test-diagnosis" title="Permanent link">&para;</a></h3>
+<p><strong>Q105.</strong> What's a first step in diagnosing a flaky test?</p>
+<p><strong>Answer:</strong> Run it many times and look at the failure pattern</p>
+<p>Evidence first.</p>
+<p><strong>Q106.</strong> Common causes of flakiness include...</p>
+<p><strong>Answer:</strong> Race conditions, shared state and unstable selectors</p>
+<p>Fix root cause.</p>
+<p><strong>Q107.</strong> What does Cypress's test retries feature do?</p>
+<p><strong>Answer:</strong> Reruns failing tests up to N times</p>
+<p>Use sparingly; track flaky tests.</p>
+<p><strong>Q108.</strong> Why not just add cy.wait(ms)?</p>
+<p><strong>Answer:</strong> It slows tests and masks the real race</p>
+<p>Wait on conditions.</p>
+<h3 id="ci-integration"><a href="../level-3/08-ci-integration/">CI Integration</a><a class="headerlink" href="#ci-integration" title="Permanent link">&para;</a></h3>
+<p><strong>Q109.</strong> What does <code>cypress run --browser chrome</code> do?</p>
+<p><strong>Answer:</strong> Runs the suite headlessly in Chrome</p>
+<p>CI mode.</p>
+<p><strong>Q110.</strong> Why cache node_modules and the Cypress binary in CI?</p>
+<p><strong>Answer:</strong> To speed up installs</p>
+<p>Binary cache folder.</p>
+<p><strong>Q111.</strong> What should CI start before tests?</p>
+<p><strong>Answer:</strong> The app under test, and wait until it's ready</p>
+<p>Use start-server-and-test.</p>
+<p><strong>Q112.</strong> What should fail the CI job?</p>
+<p><strong>Answer:</strong> Any failing spec (non-zero exit code)</p>
+<p>Gate merges.</p>
+<h3 id="parallelization-cypress-cloud"><a href="../level-3/09-parallelization-cloud/">Parallelization &amp; Cypress Cloud</a><a class="headerlink" href="#parallelization-cypress-cloud" title="Permanent link">&para;</a></h3>
+<p><strong>Q113.</strong> What does parallelization do?</p>
+<p><strong>Answer:</strong> Splits specs across machines to shorten total time</p>
+<p>Needs recording/grouping.</p>
+<p><strong>Q114.</strong> What balances parallel runs?</p>
+<p><strong>Answer:</strong> Spec duration history when using the cloud service</p>
+<p>Load balancing.</p>
+<p><strong>Q115.</strong> What's a requirement for parallelizing specs?</p>
+<p><strong>Answer:</strong> Specs must be independent</p>
+<p>No cross-spec dependencies.</p>
+<p><strong>Q116.</strong> What's an alternative to the cloud for splitting?</p>
+<p><strong>Answer:</strong> Manually shard spec lists across CI jobs</p>
+<p>Plain CI matrices.</p>
+<h3 id="project-a-real-pom-framework-with-custom-commands"><a href="../level-3/10-project-pom-framework/">Project — a Real POM Framework With Custom Commands</a><a class="headerlink" href="#project-a-real-pom-framework-with-custom-commands" title="Permanent link">&para;</a></h3>
+<p><strong>Q117.</strong> What is the Page Object Model?</p>
+<p><strong>Answer:</strong> Encapsulating page selectors and actions in classes/modules</p>
+<p>Reduces duplication.</p>
+<p><strong>Q118.</strong> What does POM improve?</p>
+<p><strong>Answer:</strong> Maintenance: UI changes touch one place</p>
+<p>Like custom commands.</p>
+<p><strong>Q119.</strong> What should page objects avoid?</p>
+<p><strong>Answer:</strong> Embedding assertions that hide test intent</p>
+<p>Keep assertions in tests.</p>
+<p><strong>Q120.</strong> Cypress's own guidance on page objects?</p>
+<p><strong>Answer:</strong> They're optional; custom commands and app actions may be simpler</p>
+<p>Choose pragmatically.</p>
+<h2 id="level-4-component-testing-scaling-comparisons">Level 4 · Component Testing, Scaling &amp; Comparisons<a class="headerlink" href="#level-4-component-testing-scaling-comparisons" title="Permanent link">&para;</a></h2>
+<h3 id="why-cypresss-architecture-is-different"><a href="../level-4/01-why-architecture-is-different/">Why Cypress's Architecture Is Different</a><a class="headerlink" href="#why-cypresss-architecture-is-different" title="Permanent link">&para;</a></h3>
+<p><strong>Q121.</strong> Why is Cypress's architecture different from Selenium's?</p>
+<p><strong>Answer:</strong> Tests run in the browser rather than controlling it over a remote protocol</p>
+<p>Direct access.</p>
+<p><strong>Q122.</strong> What advantage follows from running in the browser?</p>
+<p><strong>Answer:</strong> Fast, reliable access to DOM, network and app state</p>
+<p>Automatic waiting.</p>
+<p><strong>Q123.</strong> What trade-off follows?</p>
+<p><strong>Answer:</strong> Language support is JS/TS and some browser limitations apply</p>
+<p>Honest trade-offs.</p>
+<p><strong>Q124.</strong> What is the architecture's effect on flakiness?</p>
+<p><strong>Answer:</strong> Fewer timing issues because Cypress knows the app's state and retries</p>
+<p>Auto-wait.</p>
+<h3 id="component-testing"><a href="../level-4/02-component-testing/">Component Testing</a><a class="headerlink" href="#component-testing" title="Permanent link">&para;</a></h3>
+<p><strong>Q125.</strong> What is Cypress component testing?</p>
+<p><strong>Answer:</strong> Mounting individual components in a real browser and testing them in isolation</p>
+<p>cy.mount.</p>
+<p><strong>Q126.</strong> When choose component tests over e2e?</p>
+<p><strong>Answer:</strong> For fast, isolated checks of UI logic</p>
+<p>Complementary.</p>
+<p><strong>Q127.</strong> What does cy.mount() require?</p>
+<p><strong>Answer:</strong> A framework adapter (React, Vue, Angular, etc.)</p>
+<p>Bundler config.</p>
+<p><strong>Q128.</strong> What do component tests not cover?</p>
+<p><strong>Answer:</strong> Full-stack integration between services</p>
+<p>Use e2e for that.</p>
+<h3 id="multiple-origins-cyorigin"><a href="../level-4/03-multiple-origins/">Multiple Origins &amp; cy.origin</a><a class="headerlink" href="#multiple-origins-cyorigin" title="Permanent link">&para;</a></h3>
+<p><strong>Q129.</strong> What does cy.origin() enable?</p>
+<p><strong>Answer:</strong> Running commands against a second origin in one test</p>
+<p>Needed for cross-domain flows.</p>
+<p><strong>Q130.</strong> When do you need it?</p>
+<p><strong>Answer:</strong> When the test navigates to a different superdomain (e.g. SSO)</p>
+<p>Browser security.</p>
+<p><strong>Q131.</strong> What's a constraint of cy.origin callbacks?</p>
+<p><strong>Answer:</strong> Variables must be passed explicitly, they don't capture outer scope</p>
+<p>Serializable args.</p>
+<p><strong>Q132.</strong> Why was multi-origin once impossible?</p>
+<p><strong>Answer:</strong> Cypress enforced a single superdomain per test</p>
+<p>Historic limitation.</p>
+<h3 id="the-same-origin-constraint-investigated"><a href="../level-4/04-same-origin-constraint/">The Same-Origin Constraint, Investigated</a><a class="headerlink" href="#the-same-origin-constraint-investigated" title="Permanent link">&para;</a></h3>
+<p><strong>Q133.</strong> What is the same-origin constraint?</p>
+<p><strong>Answer:</strong> Within a test Cypress couldn't visit different superdomains without cy.origin</p>
+<p>Browser security.</p>
+<p><strong>Q134.</strong> Why does it exist?</p>
+<p><strong>Answer:</strong> Cypress runs inside the browser and must obey its security model</p>
+<p>Same-origin policy.</p>
+<p><strong>Q135.</strong> How do you avoid it for login?</p>
+<p><strong>Answer:</strong> Log in via cy.request or session instead of UI at the third party</p>
+<p>Workarounds.</p>
+<p><strong>Q136.</strong> What does the lesson say about honesty?</p>
+<p><strong>Answer:</strong> These constraints are real and should be understood</p>
+<p>Accuracy.</p>
+<h3 id="plugins-cytask"><a href="../level-4/05-plugins-cy-task/">Plugins &amp; cy.task</a><a class="headerlink" href="#plugins-cytask" title="Permanent link">&para;</a></h3>
+<p><strong>Q137.</strong> What does cy.task() do?</p>
+<p><strong>Answer:</strong> Runs Node.js code in the Cypress process (e.g. DB seeding)</p>
+<p>Defined in setupNodeEvents.</p>
+<p><strong>Q138.</strong> Why can't tests access the filesystem directly?</p>
+<p><strong>Answer:</strong> They run in the browser; use cy.readFile or cy.task</p>
+<p>Node vs browser.</p>
+<p><strong>Q139.</strong> Where are plugins/tasks configured?</p>
+<p><strong>Answer:</strong> setupNodeEvents in cypress.config.js</p>
+<p>Runs in Node.</p>
+<p><strong>Q140.</strong> What must a cy.task handler return?</p>
+<p><strong>Answer:</strong> A value or promise (not undefined)</p>
+<p>null is allowed.</p>
+<h3 id="performance-measuring-real-command-timing"><a href="../level-4/06-performance-measuring/">Performance: Measuring Real Command Timing</a><a class="headerlink" href="#performance-measuring-real-command-timing" title="Permanent link">&para;</a></h3>
+<p><strong>Q141.</strong> How should you measure test run time fairly?</p>
+<p><strong>Answer:</strong> Repeat runs and compare distributions, noting caching and machine differences</p>
+<p>Honest measurement.</p>
+<p><strong>Q142.</strong> What typically dominates Cypress test time?</p>
+<p><strong>Answer:</strong> Page loads and UI interactions, not command overhead</p>
+<p>Reduce UI steps via API setup.</p>
+<p><strong>Q143.</strong> How can you speed suites up?</p>
+<p><strong>Answer:</strong> API-based setup, session caching and parallelization</p>
+<p>Measure first.</p>
+<p><strong>Q144.</strong> Why not optimize without measuring?</p>
+<p><strong>Answer:</strong> You may speed up the wrong thing</p>
+<p>Evidence.</p>
+<h3 id="cypress-vs-selenium-a-real-honest-comparison"><a href="../level-4/07-cypress-vs-selenium/">Cypress vs Selenium: a Real, Honest Comparison</a><a class="headerlink" href="#cypress-vs-selenium-a-real-honest-comparison" title="Permanent link">&para;</a></h3>
+<p><strong>Q145.</strong> A big difference of Cypress vs Selenium?</p>
+<p><strong>Answer:</strong> Cypress runs in-browser with auto-waiting; Selenium drives browsers via WebDriver and supports more languages and browsers</p>
+<p>Choose by needs.</p>
+<p><strong>Q146.</strong> When might Selenium be the better choice?</p>
+<p><strong>Answer:</strong> Broad browser/language support or testing non-web contexts</p>
+<p>Trade-offs.</p>
+<p><strong>Q147.</strong> What's easier in Cypress?</p>
+<p><strong>Answer:</strong> Debugging with time-travel snapshots and auto-retry</p>
+<p>Developer experience.</p>
+<p><strong>Q148.</strong> What is a Selenium Grid analogue?</p>
+<p><strong>Answer:</strong> Cypress Cloud parallelization or CI sharding</p>
+<p>Scaling.</p>
+<h3 id="cypress-vs-playwright-a-real-honest-comparison"><a href="../level-4/08-cypress-vs-playwright/">Cypress vs Playwright: a Real, Honest Comparison</a><a class="headerlink" href="#cypress-vs-playwright-a-real-honest-comparison" title="Permanent link">&para;</a></h3>
+<p><strong>Q149.</strong> A difference between Cypress and Playwright?</p>
+<p><strong>Answer:</strong> Playwright controls browsers out of process with multi-tab/browser support; Cypress runs inside the browser</p>
+<p>Architectural contrast.</p>
+<p><strong>Q150.</strong> Which supports multiple browser engines natively?</p>
+<p><strong>Answer:</strong> Playwright (Chromium, Firefox, WebKit)</p>
+<p>Cypress WebKit is experimental.</p>
+<p><strong>Q151.</strong> Which has built-in parallelism without a paid service?</p>
+<p><strong>Answer:</strong> Playwright runs workers in parallel by default</p>
+<p>Cypress parallelization via Cloud or manual sharding.</p>
+<p><strong>Q152.</strong> Why compare tools honestly?</p>
+<p><strong>Answer:</strong> Choose by requirements, not hype</p>
+<p>Context matters.</p>
+<h3 id="common-cypress-anti-patterns"><a href="../level-4/09-cypress-antipatterns/">Common Cypress Anti-Patterns</a><a class="headerlink" href="#common-cypress-anti-patterns" title="Permanent link">&para;</a></h3>
+<p><strong>Q153.</strong> Which is a Cypress antipattern?</p>
+<p><strong>Answer:</strong> cy.wait(5000) instead of asserting on a condition</p>
+<p>Brittle and slow.</p>
+<p><strong>Q154.</strong> Why avoid tests depending on each other?</p>
+<p><strong>Answer:</strong> They fail unpredictably when run alone or reordered</p>
+<p>Independent tests.</p>
+<p><strong>Q155.</strong> Why avoid conditional testing (if element exists)?</p>
+<p><strong>Answer:</strong> The DOM can change after the check so it's flaky; make state deterministic</p>
+<p>Control the app state.</p>
+<p><strong>Q156.</strong> Why not use brittle selectors like nth-child chains?</p>
+<p><strong>Answer:</strong> They break on layout changes; use data-* attributes</p>
+<p>Stable selectors.</p>
+<h3 id="capstone-a-real-complete-test-framework"><a href="../level-4/10-capstone-complete-test-framework/">Capstone — a Real, Complete Test Framework</a><a class="headerlink" href="#capstone-a-real-complete-test-framework" title="Permanent link">&para;</a></h3>
+<p><strong>Q157.</strong> What does the capstone combine?</p>
+<p><strong>Answer:</strong> Custom commands, fixtures, intercepts, sessions, CI and reports</p>
+<p>A complete framework.</p>
+<p><strong>Q158.</strong> What makes a framework maintainable?</p>
+<p><strong>Answer:</strong> Clear structure, stable selectors, reusable commands and independent tests</p>
+<p>Simplicity.</p>
+<p><strong>Q159.</strong> How do you prove the framework is reliable?</p>
+<p><strong>Answer:</strong> Run repeatedly in CI and track flake rates</p>
+<p>Measure.</p>
+<p><strong>Q160.</strong> What should be documented?</p>
+<p><strong>Answer:</strong> How to run, add tests and interpret failures</p>
+<p>Onboarding.</p>
+<h2 id="mixed-questions-across-all-levels">Mixed questions across all levels<a class="headerlink" href="#mixed-questions-across-all-levels" title="Permanent link">&para;</a></h2>
+<p><strong>Q161.</strong> A Cypress test types into an input after the page loads and the field renders 1.5 s late. What's the right approach?</p>
+<p><strong>Answer:</strong> Rely on automatic retry: cy.get(...).type(...) with no manual wait</p>
+<p>Queries retry until the element exists or the timeout hits.</p>
+<p><strong>Q162.</strong> Why does <code>const btn = cy.get('button'); btn.click()</code> not behave like normal JavaScript?</p>
+<p><strong>Answer:</strong> cy commands enqueue and return chainables, not elements; the DOM query hasn't run yet</p>
+<p>Use chaining, .then() or aliases.</p>
+<p><strong>Q163.</strong> Which part of <code>cy.get('.row').should('have.length', 3)</code> is retried?</p>
+<p><strong>Answer:</strong> The query and the assertion together until they pass or time out</p>
+<p>Retry-ability covers queries and assertions.</p>
+<p><strong>Q164.</strong> A test does <code>cy.get('.btn').click().should('be.visible')</code> and fails with a detached element after a re-render. What's the fix?</p>
+<p><strong>Answer:</strong> Re-query after the action and assert on a stable end state</p>
+<p>Actions aren't retried.</p>
+<p><strong>Q165.</strong> Which is the best selector for a Save button?</p>
+<p><strong>Answer:</strong> [data-cy=save]</p>
+<p>Stable, intent-revealing hooks survive refactors.</p>
+<p><strong>Q166.</strong> A test depends on a todo created by the previous test. What's wrong?</p>
+<p><strong>Answer:</strong> Tests must be independent; create state in beforeEach or via API</p>
+<p>Order dependence is a flakiness source.</p>
+<p><strong>Q167.</strong> Login via the UI before each of 50 tests is slow. What do you do?</p>
+<p><strong>Answer:</strong> Use cy.session() or cy.request to authenticate quickly, and test the login UI once</p>
+<p>Separate setup from what you test.</p>
+<p><strong>Q168.</strong> You want to test the UI's error state when the API returns 500. What do you use?</p>
+<p><strong>Answer:</strong> cy.intercept to stub a 500 response</p>
+<p>Deterministic failure injection.</p>
+<p><strong>Q169.</strong> How do you wait for an API call before asserting on the UI it updates?</p>
+<p><strong>Answer:</strong> Alias the intercept and cy.wait('@alias')</p>
+<p>Wait on the request.</p>
+<p><strong>Q170.</strong> Why does <code>cy.request()</code> returning 401 fail the test by default?</p>
+<p><strong>Answer:</strong> failOnStatusCode is true; set it false to assert on error responses</p>
+<p>Different from fetch.</p>
+<p><strong>Q171.</strong> A test needs to read a file and seed a database. Which Cypress feature runs Node code?</p>
+<p><strong>Answer:</strong> cy.task()</p>
+<p>Tasks run in Node via setupNodeEvents.</p>
+<p><strong>Q172.</strong> The test visits your app, clicks 'Login with SSO' and lands on another domain. What do you need?</p>
+<p><strong>Answer:</strong> cy.origin() for commands against the other origin</p>
+<p>Same-origin constraint.</p>
+<p><strong>Q173.</strong> Content inside an iframe isn't found by cy.get. Why?</p>
+<p><strong>Answer:</strong> The iframe has a separate document; get the iframe's body and wrap it</p>
+<p>A real limitation, solved with a helper command.</p>
+<p><strong>Q174.</strong> A test fails only in CI. What's the most useful evidence?</p>
+<p><strong>Answer:</strong> Screenshots, video and the command log from the failed run</p>
+<p>Collect artifacts.</p>
+<p><strong>Q175.</strong> Your suite has 30 specs taking 40 minutes. How do you speed it up safely?</p>
+<p><strong>Answer:</strong> Shard or parallelize independent specs and move setup to API calls</p>
+<p>Independence is required.</p>
+<p><strong>Q176.</strong> A flaky test passes after Cypress test retries. What should you still do?</p>
+<p><strong>Answer:</strong> Track it as flaky and fix the root cause</p>
+<p>Retries mask problems.</p>
+<p><strong>Q177.</strong> When would you choose Playwright or Selenium over Cypress?</p>
+<p><strong>Answer:</strong> Multi-tab or multi-browser needs (e.g. WebKit) or non-JS languages</p>
+<p>Cypress runs in-browser with trade-offs.</p>
+<p><strong>Q178.</strong> Which is an antipattern?</p>
+<p><strong>Answer:</strong> Using <code>cy.wait(5000)</code> to wait for an element</p>
+<p>Assert on the condition.</p>
+<p><strong>Q179.</strong> Component tests vs e2e: which fits checking a form component's validation messages quickly?</p>
+<p><strong>Answer:</strong> A component test mounting the component in isolation</p>
+<p>Fast and isolated; keep a few e2e flows too.</p>
+<h2 id="practical-coding-questions">Practical coding questions<a class="headerlink" href="#practical-coding-questions" title="Permanent link">&para;</a></h2>
+<h3 id="model-retry-ability">Model retry-ability<a class="headerlink" href="#model-retry-ability" title="Permanent link">&para;</a></h3>
+<p>Implement retry(check, {timeout, interval}) using a fake clock: call check(elapsed) repeatedly, advancing elapsed by <code>interval</code>, until check returns {ok:true} (return {passed:true, elapsed}) or the next step would exceed <code>timeout</code> (return {passed:false, elapsed, error}). Use it to compare an element that appears after 1.5 s and one after 6 s.</p>
+<p>Starter code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>// A fake clock makes the simulation deterministic.
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>function retry(check, { timeout = 4000, interval = 50 } = {}) {
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  // call check(elapsedMs) repeatedly, advancing a fake clock by `interval`,
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  // until it returns {ok:true} (return {passed:true, elapsed}) or the next step
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  // would exceed `timeout` (return {passed:false, elapsed, error}).
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>}
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>// The element appears after 1500 ms (like the 1.5 s delayed element).
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>const appears = (ms) =&gt; (t) =&gt;
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>  t &gt;= ms ? { ok: true } : { ok: false, error: "Expected to find element, but never found it" };
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>console.log(retry(appears(1500)));
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>console.log(retry(appears(6000)));
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>console.log(retry(appears(1500), { timeout: 1000 }));
+</code></pre></div>
+<p>Expected output:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>{ passed: true, elapsed: 1500 }
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>{
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  passed: false,
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  elapsed: 4000,
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>  error: 'Expected to find element, but never found it'
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>}
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>{
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>  passed: false,
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>  elapsed: 1000,
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>  error: 'Expected to find element, but never found it'
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>}
+</code></pre></div>
+<p>??? success "Show a solution"</p>
+<div class="highlight"><pre><span></span><code>```
+// A fake clock makes the simulation deterministic.
+function retry(check, { timeout = 4000, interval = 50 } = {}) {
+  let elapsed = 0;
+  while (true) {
+    const result = check(elapsed);
+    if (result.ok) return { passed: true, elapsed };
+    if (elapsed + interval &gt; timeout) return { passed: false, elapsed, error: result.error };
+    elapsed += interval;
+  }
+}
+
+// The element appears after 1500 ms (like the 1.5 s delayed element).
+const appears = (ms) =&gt; (t) =&gt;
+  t &gt;= ms ? { ok: true } : { ok: false, error: "Expected to find element, but never found it" };
+
+console.log(retry(appears(1500)));
+console.log(retry(appears(6000)));
+console.log(retry(appears(1500), { timeout: 1000 }));
+```
+
+Cypress doesn't sleep for a fixed time: it re-runs the query and assertions until they pass or the 4 s default timeout expires, so the delayed element passes at 1500 ms and the 6 s one fails with the last error. This is a model of that behavior, not Cypress code. Verified by running the solution in Node.
+</code></pre></div>
+<h3 id="model-the-command-queue">Model the command queue<a class="headerlink" href="#model-the-command-queue" title="Permanent link">&para;</a></h3>
+<p>Complete the tiny command queue: each command should enqueue a function and return <code>cy</code> so calls chain, and nothing runs until runQueue(). Observe that the test body's own log line runs before any enqueued command, just like in Cypress.</p>
+<p>Starter code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>// Complete the tiny command queue: every command should ENQUEUE a function and return `cy`
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>// so calls chain; nothing runs until runQueue() is called (like Cypress after the test body).
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>const queue = [];
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>const log = [];
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>const cy = {
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>  visit(url) { /* enqueue: log.push("visit " + url) */ return cy; },
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>  get(sel) { /* enqueue: log.push("get " + sel) */ return cy; },
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>  click() { /* enqueue: log.push("click") */ return cy; },
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>  then(fn) { /* enqueue: call fn */ return cy; },
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>};
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>function runQueue() { while (queue.length) queue.shift()(); }
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>cy.visit("/login").get("#user").click();
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>log.push("test body finished");
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>cy.then(() =&gt; log.push("then callback"));
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>console.log("queued:", queue.length);
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>runQueue();
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>console.log(log.join(" | "));
+</code></pre></div>
+<p>Expected output:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>queued: 4
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>test body finished | visit /login | get #user | click | then callback
+</code></pre></div>
+<p>??? success "Show a solution"</p>
+<div class="highlight"><pre><span></span><code>```
+// A tiny model of Cypress's command queue: commands are enqueued while the test
+// function runs, then executed later, in order.
+const queue = [];
+const log = [];
+const cy = {
+  visit(url) { queue.push(() =&gt; log.push("visit " + url)); return cy; },
+  get(sel) { queue.push(() =&gt; log.push("get " + sel)); return cy; },
+  click() { queue.push(() =&gt; log.push("click")); return cy; },
+  then(fn) { queue.push(() =&gt; fn()); return cy; },
+};
+
+function runQueue() { while (queue.length) queue.shift()(); }
+
+// "Test body": runs synchronously and only ENQUEUES.
+cy.visit("/login").get("#user").click();
+log.push("test body finished");        // runs BEFORE any command above
+cy.then(() =&gt; log.push("then callback"));
+
+console.log("queued:", queue.length);
+runQueue();
+console.log(log.join(" | "));
+```
+
+Cypress commands are enqueued while your test function runs and executed afterwards in order, which is why plain JS around them runs first and why you can't assign a command's result to a variable. This is a teaching model of the idea, not Cypress internals. Verified by running the solution in Node.
+</code></pre></div>
+<hr />
+<p>More free practice: the <a href="../">Cypress Mastery Path</a> curriculum, the <a href="https://learnmasterypath.com/interview-pack/">Interview Prep Pack</a> and the <a href="https://learnmasterypath.com/resume/">free resume ATS check</a>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+  
+  <nav class="mp-related" aria-label="Related free courses">
+    <h2>Related free courses</h2>
+    <ul>
+      <li><a href="https://learnmasterypath.com/java-testing-mastery-path/">Java Testing</a></li><li><a href="https://learnmasterypath.com/cpp-testing-mastery-path/">C/C++ Testing</a></li><li><a href="https://learnmasterypath.com/python-testing-mastery-path/">Python Testing</a></li><li><a href="https://learnmasterypath.com/automotive-testing-mastery-path/">Automotive Testing</a></li><li><a href="https://learnmasterypath.com/selenium-mastery-path/">Selenium</a></li>
+      <li><a href="https://learnmasterypath.com/">All 100+ courses &rarr;</a></li>
+    </ul>
+  </nav>
+  
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../level-1/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+  <div class="mp-foot">
+    <div class="mp-foot-inner">
+      <a class="mp-foot-brand" href="https://learnmasterypath.com/"><svg class="mp-mark" viewBox="0 0 160 160" role="img" aria-label="Mastery Path logo">
+  <circle cx="80" cy="80" r="74" fill="#FAF7EF" stroke="#2FA98D" stroke-width="5"/>
+  <rect class="mp-bar mp-bar-1" x="36" y="90" width="17" height="24" rx="5" fill="#2FA98D"/>
+  <rect class="mp-bar mp-bar-2" x="59" y="74" width="17" height="40" rx="5" fill="#7FC9B7"/>
+  <rect class="mp-bar mp-bar-3" x="82" y="56" width="17" height="58" rx="5" fill="#E0B457"/>
+  <rect class="mp-bar mp-bar-4" x="105" y="38" width="17" height="76" rx="5" fill="#C97B4A"/>
+  <circle class="mp-dot" cx="44.5" cy="82" r="7" fill="#22261f"/>
+</svg><span>Mastery Path</span></a>
+      <nav class="mp-sitelinks" aria-label="Site and legal links">
+        <a href="https://learnmasterypath.com/">All courses</a>
+        <a href="https://learnmasterypath.com/about.html">About</a>
+        <a href="https://learnmasterypath.com/contact.html">Contact</a>
+        <a href="https://learnmasterypath.com/cypress-mastery-path/privacy/">Privacy Policy</a>
+        <a href="https://learnmasterypath.com/terms.html">Terms</a>
+        <a href="https://learnmasterypath.com/cypress-mastery-path/license/">License</a>
+        <a href="https://learnmasterypath.com/verify/">Verify a certificate</a>
+      </nav>
+    </div>
+    <p class="mp-license-note">
+      © 2026 Vinod Kumar Sigilipelli · Except where otherwise noted, lesson content is licensed under
+      <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> and code examples under the
+      <a href="https://opensource.org/license/mit">MIT License</a>.
+    </p>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.path", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "content.code.copy", "content.code.annotate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../javascripts/progress-tracker.js"></script>
+      
+        <script src="../javascripts/final-quiz.js"></script>
+      
+    
+  </body>
+</html>
